@@ -14,13 +14,67 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      quote_submissions: {
+        Row: {
+          area: string
+          contact_method: string
+          created_at: string
+          description: string
+          email: string
+          full_name: string
+          id: string
+          phone: string
+          request_ip_hash: string
+          service: string
+          source: string
+        }
+        Insert: {
+          area: string
+          contact_method: string
+          created_at?: string
+          description: string
+          email: string
+          full_name: string
+          id?: string
+          phone: string
+          request_ip_hash: string
+          service: string
+          source: string
+        }
+        Update: {
+          area?: string
+          contact_method?: string
+          created_at?: string
+          description?: string
+          email?: string
+          full_name?: string
+          id?: string
+          phone?: string
+          request_ip_hash?: string
+          service?: string
+          source?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      save_quote_submission: {
+        Args: {
+          p_area: string
+          p_contact_method: string
+          p_description: string
+          p_email: string
+          p_full_name: string
+          p_ip_hash: string
+          p_phone: string
+          p_service: string
+          p_source: string
+        }
+        Returns: string
+      }
     }
     Enums: {
       [_ in never]: never
