@@ -1,4 +1,5 @@
 # JM website
+- [ ] Update all business email links to info.jmtechnicalservice@gmail.com.
 - [ ] Build eight public pages and shared mobile navigation.
 - [ ] Add concept service imagery, filtered gallery and before/after comparison.
 - [ ] Save and verify contact/quote enquiries in Lovable Cloud.

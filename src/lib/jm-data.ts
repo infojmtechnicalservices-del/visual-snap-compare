@@ -5,7 +5,7 @@ import after from '@/assets/kitchen-after.jpg'
 
 export const images = { house, electrical, before, after }
 export const phone = '083 241 2126'
-export const email = 'info.jmtechnicalservices@gmail.com'
+export const email = 'info.jmtechnicalservice@gmail.com'
 export const whatsapp = (message = 'Hi JM Technical Services, I need assistance with a project in Cape Town.') => `https://wa.me/27832412126?text=${encodeURIComponent(message)}`
 export const areas = ['Cape Town CBD', 'Goodwood', 'Thornton', 'Northern Suburbs', 'Southern Suburbs', 'Cape Flats', 'Atlantic Seaboard', 'Helderberg']
 export const trades = [
