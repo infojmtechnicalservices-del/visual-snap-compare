@@ -1,4 +1,5 @@
 # JM website
+- [ ] Add an AI Gateway service recommender and editable enquiry summary to the quote form.
 - [ ] Update all business email links to info.jmtechnicalservice@gmail.com.
 - [ ] Build eight public pages and shared mobile navigation.
 - [ ] Add concept service imagery, filtered gallery and before/after comparison.

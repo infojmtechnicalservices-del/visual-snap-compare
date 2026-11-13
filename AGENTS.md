@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+AI service recommendations must run through TanStack Start server functions and Lovable AI Gateway, keeping inference and credentials outside the browser.
